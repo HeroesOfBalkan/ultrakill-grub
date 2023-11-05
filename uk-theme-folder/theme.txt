@@ -38,7 +38,7 @@ terminal-border: "0"
   align = "left"
   id = "__timeout__"
   text = "Default boot in %d seconds"
-  color = "#000000"
+  color = "#fe0000"
 }
 
 
