@@ -26,7 +26,7 @@ terminal-border: "0"
   menu_pixmap_style = "menu_*.png"
   menu_opacity = ""
   item_height = 24
-  item_padding = 16
+  item_padding = 8
   item_spacing = 4 
   scrollbar_thumb = "scrollbar_thumb_*.png"
   scrollbar_width = 8
