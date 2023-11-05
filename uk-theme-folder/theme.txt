@@ -12,12 +12,12 @@ terminal-border: "0"
 
 #Boot Menu
 + boot_menu {
-  left = 100
-  top = 350
-  width = 40%
+  left = 5%
+  top = 20%
+  width = 45%
   align="center"
   item_align = "center"
-  height = 350
+  height = 55%
   item_color = "#fe0000"
   item_font = "vcr-osd-mono"
   selected_item_color = "#fe0000"
@@ -25,7 +25,7 @@ terminal-border: "0"
   selected_item_pixmap_style = "select_*.png"
   menu_pixmap_style = "menu_*.png"
   menu_opacity = ""
-  item_height = 36
+  item_height = 24
   item_padding = 16
   item_spacing = 4 
   scrollbar_thumb = "scrollbar_thumb_*.png"
@@ -33,11 +33,11 @@ terminal-border: "0"
 }
 
 + label {
-  left = 100
-  top = 920
+  left = 5%
+  top = 75%
   align = "left"
   id = "__timeout__"
-  text = "Default OS booting in %d seconds"
+  text = "Default boot in %d seconds"
   color = "#000000"
 }
 
